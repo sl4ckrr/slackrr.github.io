@@ -1,134 +1,100 @@
 <!DOCTYPE html>
-<html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-          <link rel="shortcut icon" href="img/f4vicon.ico">
-<title></title>
- </head>
- <body>
-   <h1>games bellow!</h1>
+<html class="sl-theme-dark" lang="en">
+  <head>
+    <!-- initialize theme vars
+    https://coolors.co/10002b-240046-3c096c-5a189a-7b2cbf-9d4edd-c77dff-e0aaff -->
+
+    <!-- initialize externals -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+    
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/dark.css" />
+     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
   
- <div class="featured">
-        <h1>Popular:</h1>
-        <div class="column">
-          <a href="https://2029556.playcode.io/">
-            <img src="img/1v1.png" alt="1v1.lol"> 
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-          <a href="https://2044844.playcode.io/">
-            <img src="img/stick.jpeg" alt="stickman hook.io"> 
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
+
+    <!-- initialize my stuff -->
+    <script src="/js/all.js"></script>
+    <script src="/js/main.js"></script>
+<script src="/js/themes.js"></script>
+    <script src="/js/randomquote.js"></script>
+    <link rel="stylesheet" href="/themes.css" />
+    <link rel="stylesheet" href="/style.css" />
+
+
+
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+      new Crate({
+          server: '1148719137238040606', // Selenite
+          channel: '1173731814196645909' // #commands
+      })
+    </script>
+
+
+    <!-- seo + other things -->
+    <title>Selenite</title>
+    <link rel="icon" href="/favicon.ico" />
+    <meta
+      name="keywords"
+      content="front-end web developer, unblocked, games, google sites, unblocked games mom, ublocked, code, coding, programmer, development, javascript, jquery, bootstrap, sass, less, git, gaming, internet, website, best, site, cool, free games"
+    />
+
+  </head>
+  <alerts>
+    <sl-dialog label="Welcome to Selenite!" class="dialog-width" style="--width: 60vw;display:none;">
+      Thank you for choosing Selenite! You will be able to play over 150 high quality games, and we have many tools to make your experience better.
+      <br>
+      Wanting to transfer your data from another website? Try the transfer utility in the footer!
+      <br>
+      Want to support the development of Selenite? Join the <a href="https://discord.gg/7jyufnwJNf">Discord</a> and support us on <a href="https://patreon.com/selenitecc">Patreon</a>!
+      <br>
+      Learn more about Selenite at the about page in the header!
+      <br>
+      Try out the Selenite Minified bookmarklet in the bookmarklets page!
+      <br>
+      Have a great day!
+      <sl-button slot="footer" variant="neutral">Close</sl-button>
+    </sl-dialog>
+  </alerts>
+  <body id="noscroll">
+    <header>
+      <a href="/index.html">Home</a>
+      <a href="/bookmarklets.html">Bookmarklets</a>
+      <a href="/projects.html">Games</a>
+      <a href="/settings.html">Settings</a>
+      <a href="/support.html">Support</a>
+      <a id="blank" href="#">Open Blank</a>
+      <a href="/about.html">About</a>
+    </header>
+    <main id="main" class="noscroll">
+      <h1>selenite.</h1>
+      <p id="randomquote">...</p>
+      <div class="samerow">
+        <div class="img-container">
+          <a href="https://patreon.com/selenitecc"><img src="img/Digital-Patreon-Logo_White.png"></a>
         </div>
-        <div class="row">
-          <a href="https://rrkc4ls.github.io./pokemon/firered/index.html">
-            <img src="img/firered.jpeg" alt="pokemon firered" alt="firered">  
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
+        <div class="img-container">
+          <a href="projects.html"><img src="img/baseline_sports_esports_white_48dp.png"></a>
         </div>
-        <div class="row">
-          <a href="https://rrkc4ls.github.io./supermario64/index.html">
-            <img src="img/64.jpeg" alt="super mario 64"> 
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-            </a>
+        <div class="img-container">
+          <a href="https://discord.gg/7jyufnwJNf"><img src="img/discord-mark-white.png"></a>
         </div>
-        <div class="column">
-          <a href="https://2037316.playcode.io/">
-            <img src="img/smash.jpeg" alt="smash karts.io"> 
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-          <a href="">
-            <img src="img/shock.jpeg" alt="shell shockers.io"> 
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-        </div>
-        </div>
-    </div>
-
-    <div class="content">
-
-
-
-
-      <center>
-       <div class="content">
-
-
-    <div class="search">
-        <input type="text" placeholder="Search..." oninput="">
-        <button><i class="fas fa-search"></i></button>
-    </div>
-    <div class="content">
-
-<hr>
-
-    <div id="games">
-
-      <a href="https://rrkc4ls.github.io./badicecream/index.html"><img src="img/badice.png" alt="bad icecream 1"></a>
-      <a href="https://rrkc4ls.github.io./badicecream2/index.html"><img src="img/badice2.png" alt="bad icecream 2"></a>
-      <a href="https://rrkc4ls.github.io./badicecream3/index.html"><img src="img/badice3.png" alt="bad icecream 3"></a>
-      <a href="https://rrkc4ls.github.io./ovo/index.html"><img src="img/ovoo.png" alt="ovo"></a>
-     
-      <a href="https://rrkc4ls.github.io./offlineparadise/index.html"><img src="img/offline.png" alt="offline paradise"></a>
-      <a href="https://rrkc4ls.github.io./run/index.html"><img src="img" alt="alt"></a>
-      <a href="https://rrkc4ls.github.io./run2/index.html"><img src="img" alt="alt"></a>
-      <a href="https://rrkc4ls.github.io./run3/index.html"><img src="img" alt="alt"></a>
-      <a href="https://rrkc4ls.github.io./run/index.html"><img src="img" alt="alt"></a>
-      <a href="https://rrkc4ls.github.io./basketrandom/index.html"><img src="img/" alt="basket random"></a>
-     
-      <a href="https://rrkc4ls.github.io./boxingrandom/index.html"><img src="img/" alt="boxing random"></a>
-      <a href="https://rrkc4ls.github.io./soccerrandom/index.html"><img src="img/" alt="soccer random"></a>
-      <a href="https://rrkc4ls.github.io./drivemad/index.html"><img src="img" alt="drivemad"></a>
-      <a href="https://rrkc4ls.github.io./dragonballdevolution/index.html"><img src="img" alt="dragon ball deevolution"></a>
-     
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-     
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-     
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-     
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-     
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-      <a href="link"><img src="img" alt="alt"></a>
-
-
-
-      </center>
- </body>
+      </div>
+      <div id="adcontainer">
+        <h3><a href="ad.html">AD (click to read more):</a></h3>
+        <script async="async" data-cfasync="false" src="//pl22225360.toprevenuegate.com/92108816b5da54426d1639bcbfb5785c/invoke.js"></script>
+        <div id="container-92108816b5da54426d1639bcbfb5785c"></div>
+      </div>
+    </main>
+    
+    <footer class="noscroll">
+      <a href="https://github.com/selenite-cc/Selenite">Source Code</a>
+      <a id="panicmode">Panic Mode</a>
+      <a href="/transfer.html">Transfer your data</a>
+      <a href="/suggest.html">Bug Reports</a>
+      <a href="https://discord.gg/7jyufnwJNf">Discord</a>
+      <a href="/suggest.html">Suggestions</a>
+      <a href="/contact.html">Contact</a>
+    </footer>
+    
+  </body>
 </html>
-
-<script src="script.js"></script>
