@@ -79,7 +79,7 @@ nav {
 
 #games img {    height: 15.6vw;
     width: 15.6vw;
-    border-radius: 1vw;
+    border-radius: 15px;
     margin: .5vw;
     cursor: pointer;
     user-select: none;
@@ -118,7 +118,7 @@ nav {
 .featured img {
     height: 12.5vw;
     width: 12.5vw;
-    border-radius: 1vw;
+    border-radius: 15px;
     margin: .5vw;
     cursor: pointer;
     user-select: none;
