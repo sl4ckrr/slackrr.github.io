@@ -42,10 +42,7 @@ nav {
 }
 
 .search input {
-    background-color: #222222;
     border: none;
-    border-radius: 1vw 0 0 1vw;
-    color: #fff;
     font-size: 1.5vw;
     font-weight: 600;
     padding: 0.8vw 1.5vw;
@@ -61,10 +58,8 @@ nav {
 }
 
 .search button {
-    background-color: #fff;
     border: none;
     border-radius: 0 1vw 1vw 0;
-    color:#222222;
     font-size: 1.5vw;
     font-weight: 600;
     padding: 1.5vw 1vw;
